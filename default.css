@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Cafe24Ohsquare;
+    src: url(Cafe24Ohsquare.ttf);
+}
+
+body{
+    background-color: rgb(10, 26, 43);
+    font-family: Cafe24Ohsquare;
+    color: white;
+}

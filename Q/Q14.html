@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI 검사기</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../default.css">
+    <link rel="stylesheet" href="../Q_UI.css">
+  </head>
+  <body>
+    <div id="main_back" class="mx-auto">
+      <div>
+        <h2 class="mt-5 mb-5">
+          MBTI 검사<br>
+          문항은 20문항입니다
+        </h2>
+      </div>
+      <div class="bar-container mb-5">
+        <div id="content_bar" class="bar">
+        </div> </div>
+      <h1 class="q mb-5 mx-2">
+        나는 다른 사람의 감정에 민감하다
+      </h1>
+      <div class="mx-auto pt-5">
+        <button type ="button" 
+        onclick="saveanswer(5)"
+        id="left_btn" class="b">
+          <b>그렇다</b>
+        </button>
+  
+        <button type ="button" 
+        onclick="saveanswer(6)"
+        id="right_btn" class="b">
+          <b>아니다</b>
+        </button>
+        <h1></h1>
+      </div>
+    </div>
+    <script src="../func.js"></script>
+    <script>
+      // 퍼센트바 그리는 변수
+      function drawprogress()
+      {
+        var output = localStorage.getItem("Ansarr")
+        var Ansarr = new Array()
+        Ansarr = JSON.parse(output)
+        var percent = Ansarr.length
+        document.getElementById("content_bar").style.width = percent*5+'%'
+      }
+
+      QDel(13)
+      drawprogress()
+    </script>
+  </body>
+</html>

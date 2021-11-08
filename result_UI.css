@@ -1,0 +1,30 @@
+#main_back{
+    text-align: center;
+    width: auto;
+    height: auto;
+    line-height: 150%;
+}
+
+#result_UI
+{
+  vertical-align: middle;
+}
+
+/*.name{
+    font-size: 11vw;
+}
+
+.explain{
+    font-size: 4vw;
+}*/
+
+.b
+{
+  background-color: rgb(10, 26, 43);
+  font-size: 25px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.5em;
+  cursor:  pointer;
+  margin: 1%;
+}

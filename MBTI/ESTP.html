@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI 검사기</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../default.css">>
+    <link rel="stylesheet" href="../result_UI.css">
+    <style>
+      @media screen and (max-width:767px) {
+  .name{
+    font-size: 11vw;
+  }
+  .explain{
+    font-size: 4vw;
+  }
+}
+@media screen and (min-width:768px) and (max-width:959px) {
+  .name{
+    font-size: 7vw;
+  }
+  .explain{
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width:960px) {
+  .name{
+    font-size: 4vw;
+  }
+  .explain{
+    font-size: 2vw;
+  }
+}
+</style>
+  </head>
+  <body>
+    <div id="main_back";>
+      <h1 style="margin-bottom: 75px;">
+        ESTP
+      </h1>
+      <h2 class="name mb-4 mx-2">
+        모험을 즐기는 사업가
+      </h2>
+      <h3 class="explain mx-3 mb-4">
+        뛰어난 두뇌와 행동력, 직관으로 안정보다는 모험에 몰두하며 짜릿함을 즐기는 사업가형.
+        망망대해 한가운데서 바다, 물고기와 밤낮으로 사투를 벌이는 노인 어부의 이야기 "노인과 바다"를 읽어보는 건 어떨까?
+        참고로 이 작품을 쓴 어니스트 헤밍웨이 역시 ESTP 유형이었다고 한다.
+      </h3>
+
+      <h2 class="name">
+        &lt; 책 &gt;
+      </h2>
+      <div id="result_UI">
+        <button type="button" onclick="window.open('http://www.yes24.com/Product/Goods/6157159')"
+        class="b">
+          <img src='book/노인과 바다.jpg' class="img-fluid">
+        </button>
+      </div>
+      <h3 style="font-size: 4vw;" class="my-2">[이미지를 클릭시 구매링크로 넘어갑니다]</h3>
+      <h2 class="name">
+        &lt; 영화 &gt;
+      </h2>
+      <div id="result_UI">
+        <button type="button" onclick="window.open('https://movie.daum.net/moviedb/main?movieId=131277')"
+        class="b">
+          <img src='movie/프리가이.jpg' class="img-fluid">
+        </button>
+      </div>
+      <h3 style="font-size: 4vw;" class="my-2">[이미지를 클릭시 구매링크로 넘어갑니다]</h3>
+      <h2 class="name">
+        &lt; 음악 &gt;
+      </h2>
+      <div id="result_UI">
+        <button type="button" onclick="window.open('https://www.youtube.com/watch?v=4NJlUribp3c')"
+        class="b">
+          <img src='music/panda.jpg' class="img-fluid">
+        </button>
+      </div>
+      <h3 style="font-size: 4vw;" class="my-2">[이미지를 클릭시 구매링크로 넘어갑니다]</h3>
+      <div>
+        <button type ="button" onclick="location.href='../main.html' "class="b px-3">
+          <b>처음으로</b>       
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

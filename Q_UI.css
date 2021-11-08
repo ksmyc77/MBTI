@@ -1,0 +1,53 @@
+
+#main_back{
+    text-align: center;
+    font-size: 30px;
+    /* width: auto; */
+    /* height: auto; */
+    line-height: 150%;
+  }
+
+  #left_btn{
+    margin-right: 3%;
+  }
+
+  #right_btn{
+    margin-left: 3%;
+  }
+  
+  .q
+  {
+    font-size: 40px;
+  }
+
+  .b
+  {
+    background-color: rgb(10, 26, 43);
+    font-size: 4.5vw;
+    line-height: 120%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    cursor:  pointer; 
+    padding: 3%;
+    width: 40vw;
+    height: 20vw;
+  }
+  .b:hover
+  {
+    background: white;
+    color: black;
+  }
+  .bar-container
+  {
+    border: 2px solid white;
+    width: auto;
+    background-color: rgb(10, 26, 43);
+    color: white;
+    border-radius: 15px;
+  }
+  .bar{
+    height: 20px;
+    background-color: rgb(255,177,75);
+    border-radius: 15px;
+  }
